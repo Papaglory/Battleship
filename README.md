@@ -51,11 +51,7 @@ Depending on the controller, the values of 'current' and 'target' are the altitu
 
 ## Dependencies
 
-Uses the Unity Engine (version 2022.3.29f1) along with the following Unity store assets (for more information, please refer to the Acknowledgements file):
-* Free 3D Missile by LunarCats Studio.
-* Simple Urban Buildings Pack 1 by Rune Studios.
-* Wispy Skybox by Mundus.
+Uses the org.junit package in Java for testing purposes.
 
 ## Author
-Marius H. Naasen, originally created the spring of 2019 as part of the object-oriented programming course [INF101](https://www4.uib.no/en/courses/INF101) at UiB.
-.
+Marius H. Naasen, originally created in the spring of 2019 as part of the object-oriented programming course [INF101](https://www4.uib.no/en/courses/INF101) at UiB.
