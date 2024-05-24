@@ -1,6 +1,6 @@
 ## Description
 
-This project is my from-scratch implementation of the classic board game, Battleship, developed during my Bachelor's studies at UiB. It offers a console text-based game, featuring both the setup phase for placing ships on the board and the gameplay phase where players take turns firing at each other's boards. Included in this project is the corresponding JAR file.
+This project is my from-scratch implementation of the classic board game, Battleship, developed during my Bachelor's studies at UiB. Implemented as a single-player experience against the computer, this console-based game features both the setup phase for placing ships on the board and the gameplay phase where players take turns firing at each other's boards. Included in this project is the corresponding JAR file.
 
 ## Preview
 
