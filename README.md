@@ -12,10 +12,6 @@ Depicted are the setup phase along with the initial gameplay phase.
 
 To play the game, simply run the provided JAR file.
 
-## Implementations
-
-### PID Controllers
-
 ## Dependencies
 
 Uses the org.junit package in Java for testing purposes.
