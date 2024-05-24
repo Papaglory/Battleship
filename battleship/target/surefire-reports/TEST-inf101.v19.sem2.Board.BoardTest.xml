@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="inf101.v19.sem2.Board.BoardTest" time="0.186" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Mariu\OneDrive\Desktop\battleship\target\test-classes;C:\Users\Mariu\OneDrive\Desktop\battleship\target\classes;C:\Users\Mariu\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Mariu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mariu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Mariu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Mariu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Mariu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Mariu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Mariu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Mariu\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Budapest"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NO"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mariu\AppData\Local\Temp\surefire14950044896565450491\surefirebooter-20240524192637062_3.jar C:\Users\Mariu\AppData\Local\Temp\surefire14950044896565450491 2024-05-24T19-26-36_879-jvmRun1 surefire-20240524192637062_1tmp surefire_0-20240524192637062_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Mariu\OneDrive\Desktop\battleship\target\test-classes;C:\Users\Mariu\OneDrive\Desktop\battleship\target\classes;C:\Users\Mariu\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Mariu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mariu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Mariu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Mariu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Mariu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Mariu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Mariu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Mariu\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mariu"/>
+    <property name="user.language" value="no"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Mariu\OneDrive\Desktop\battleship"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mariu\AppData\Local\Temp\surefire14950044896565450491\surefirebooter-20240524192637062_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="Mariu"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Mariu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mariu\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="C:\Users\Mariu\OneDrive\Desktop\battleship"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-22\bin;C:\Users\Mariu\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Mariu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mariu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mariu\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="initializationTest" classname="inf101.v19.sem2.Board.BoardTest" time="0.08"/>
+  <testcase name="placeTest" classname="inf101.v19.sem2.Board.BoardTest" time="0.082">
+    <system-out><![CDATA[getLocationUnder: (2, 18)@-1503300666 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+Patrol Boat was placed correctly
+getLocationUnder: (5, 5)@-1503300586 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+getLocationUnder: (15, 5)@-1503300276 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Carrier was placed correctly
+Submarine was placed correctly
+Battleship was placed correctly
+getLocationRight(): (5, 0)@-1503300591 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (5, 1)@-1503300590 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (2, 1)@-1503300683 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (5, 1)@-1503300590 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (5, 0)@-1503300591 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (0, 2)@-1503300744 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (4, 2)@-1503300620 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+getLocationUnder: (0, 2)@-1503300744 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (10, 0)@-1503300436 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (1, 0)@-1503300715 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (21, 0)@-1503300095 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (11, 0)@-1503300405 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (17, 0)@-1503300219 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+Battleship was placed correctly
+getLocationUnder: (15, 9)@-1503300272 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+getLocationUnder: (22, 2)@-1503300062 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (2, 2)@-1503300682 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+getLocationUnder: (1, 6)@-1503300709 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+Battleship was placed correctly
+Destroyer was placed correctly
+Battleship was placed correctly
+Submarine was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+getLocationUnder: (6, 9)@-1503300551 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Submarine was placed correctly
+Battleship was placed correctly
+Carrier was placed correctly
+Submarine was placed correctly
+getLocationRight(): (9, 2)@-1503300465 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (0, 6)@-1503300740 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+getLocationUnder: (10, 1)@-1503300435 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+A non-water object is at this tile. Cannot place object
+A non-water object is at this tile. Cannot place object
+Submarine was placed correctly
+getLocationRight(): (1, 3)@-1503300712 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+getLocationRight(): (10, 1)@-1503300435 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+Destroyer was placed correctly
+getLocationRight(): (9, 16)@-1503300451 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+Battleship was placed correctly
+Submarine was placed correctly
+Carrier was placed correctly
+Destroyer was placed correctly
+Submarine was placed correctly
+Destroyer was placed correctly
+tile is already occupied by a ship
+Submarine was placed correctly
+getLocationUnder: (23, 2)@-1503300031 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (7, 2)@-1503300527 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (15, 2)@-1503300279 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Patrol Boat was placed correctly
+A non-water object is at this tile. Cannot place object
+Patrol Boat was placed correctly
+getLocationUnder: (3, 0)@-1503300653 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (4, 0)@-1503300622 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+getLocationRight(): (8, 2)@-1503300496 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+Carrier was placed correctly
+Battleship was placed correctly
+Submarine was placed correctly
+Carrier was placed correctly
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+Battleship was placed correctly
+Submarine was placed correctly
+getLocationUnder: (7, 3)@-1503300526 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (18, 3)@-1503300185 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Carrier was placed correctly
+getLocationRight(): (2, 1)@-1503300683 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+getLocationUnder: (20, 11)@-1503300115 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+Submarine was placed correctly
+getLocationRight(): (4, 9)@-1503300613 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (2, 12)@-1503300672 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+Battleship was placed correctly
+getLocationUnder: (7, 0)@-1503300529 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+Battleship was placed correctly
+getLocationRight(): (22, 2)@-1503300062 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+Battleship was placed correctly
+getLocationRight(): (4, 2)@-1503300620 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+getLocationRight(): (4, 5)@-1503300617 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (4, 9)@-1503300613 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Submarine was placed correctly
+Destroyer was placed correctly
+getLocationUnder: (20, 0)@-1503300126 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+A non-water object is at this tile. Cannot place object
+getLocationUnder: (1, 0)@-1503300715 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+Patrol Boat was placed correctly
+getLocationRight(): (23, 0)@-1503300033 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+getLocationRight(): (3, 19)@-1503300634 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+getLocationUnder: (2, 12)@-1503300672 is at the edge of the board
+Patrol Boat, 848672403 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+Carrier was placed correctly
+Destroyer was placed correctly
+Submarine was placed correctly
+Submarine was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+getLocationRight(): (11, 7)@-1503300398 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+Submarine was placed correctly
+tile is already occupied by a ship
+Destroyer was placed correctly
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+tile is already occupied by a ship
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+Submarine was placed correctly
+Battleship was placed correctly
+Carrier was placed correctly
+getLocationUnder: (0, 2)@-1503300744 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+Submarine was placed correctly
+Carrier was placed correctly
+getLocationRight(): (21, 3)@-1503300092 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+tile is already occupied by a ship
+Battleship was placed correctly
+Battleship was placed correctly
+Carrier was placed correctly
+Patrol Boat was placed correctly
+getLocationUnder: (5, 13)@-1503300578 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Destroyer was placed correctly
+getLocationRight(): (1, 1)@-1503300714 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (1, 24)@-1503300691 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (1, 5)@-1503300710 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (1, 16)@-1503300699 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+getLocationRight(): (9, 9)@-1503300458 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+Submarine was placed correctly
+Carrier was placed correctly
+Submarine was placed correctly
+Battleship was placed correctly
+tile is already occupied by a ship
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+getLocationUnder: (10, 18)@-1503300418 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (4, 12)@-1503300610 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (14, 9)@-1503300303 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Carrier was placed correctly
+Battleship was placed correctly
+A non-water object is at this tile. Cannot place object
+Submarine was placed correctly
+Submarine was placed correctly
+A non-water object is at this tile. Cannot place object
+A non-water object is at this tile. Cannot place object
+A non-water object is at this tile. Cannot place object
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+getLocationRight(): (9, 0)@-1503300467 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (1, 1)@-1503300714 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Patrol Boat was placed correctly
+getLocationUnder: (1, 20)@-1503300695 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (2, 11)@-1503300673 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+getLocationUnder: (2, 21)@-1503300663 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+Carrier was placed correctly
+getLocationUnder: (1, 18)@-1503300697 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (1, 12)@-1503300703 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+getLocationUnder: (0, 18)@-1503300728 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+Submarine was placed correctly
+A non-water object is at this tile. Cannot place object
+Carrier was placed correctly
+Battleship was placed correctly
+Destroyer was placed correctly
+getLocationRight(): (7, 0)@-1503300529 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (7, 15)@-1503300514 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (7, 4)@-1503300525 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Battleship was placed correctly
+Destroyer was placed correctly
+Submarine was placed correctly
+Battleship was placed correctly
+Carrier was placed correctly
+Submarine was placed correctly
+getLocationRight(): (1, 12)@-1503300703 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Patrol Boat was placed correctly
+Destroyer was placed correctly
+Submarine was placed correctly
+getLocationUnder: (3, 3)@-1503300650 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (0, 3)@-1503300743 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (5, 0)@-1503300591 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (5, 0)@-1503300591 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (5, 1)@-1503300590 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Submarine was placed correctly
+Carrier was placed correctly
+getLocationRight(): (19, 18)@-1503300139 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+Destroyer was placed correctly
+getLocationRight(): (6, 6)@-1503300554 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Carrier was placed correctly
+getLocationUnder: (0, 10)@-1503300736 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Carrier was placed correctly
+getLocationUnder: (1, 10)@-1503300705 is at the edge of the board
+Destroyer, -304235995 was not placed becauseone or more locations are outside of the board
+A non-water object is at this tile. Cannot place object
+Battleship was placed correctly
+Submarine was placed correctly
+Carrier was placed correctly
+Patrol Boat was placed correctly
+Submarine was placed correctly
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+Destroyer was placed correctly
+Carrier was placed correctly
+getLocationRight(): (2, 16)@-1503300668 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Patrol Boat was placed correctly
+getLocationUnder: (0, 7)@-1503300739 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Battleship was placed correctly
+Submarine was placed correctly
+Submarine was placed correctly
+Patrol Boat was placed correctly
+Destroyer was placed correctly
+Submarine was placed correctly
+Battleship was placed correctly
+A non-water object is at this tile. Cannot place object
+Destroyer was placed correctly
+Battleship was placed correctly
+Patrol Boat was placed correctly
+Submarine was placed correctly
+Destroyer was placed correctly
+getLocationUnder: (7, 24)@-1503300505 is at the edge of the board
+Carrier, -2075952332 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+tile is already occupied by a ship
+Battleship was placed correctly
+Submarine was placed correctly
+Carrier was placed correctly
+Battleship was placed correctly
+Battleship was placed correctly
+Destroyer was placed correctly
+Patrol Boat was placed correctly
+Patrol Boat was placed correctly
+Battleship was placed correctly
+Destroyer was placed correctly
+Carrier was placed correctly
+A non-water object is at this tile. Cannot place object
+Destroyer was placed correctly
+Destroyer was placed correctly
+Carrier was placed correctly
+getLocationRight(): (7, 8)@-1503300521 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+Destroyer was placed correctly
+Battleship was placed correctly
+Submarine was placed correctly
+Destroyer was placed correctly
+Battleship was placed correctly
+getLocationUnder: (7, 9)@-1503300520 is at the edge of the board
+Submarine, -1949777920 was not placed becauseone or more locations are outside of the board
+Patrol Boat was placed correctly
+Destroyer was placed correctly
+Carrier was placed correctly
+getLocationUnder: (2, 12)@-1503300672 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (1, 12)@-1503300703 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (2, 12)@-1503300672 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationUnder: (1, 12)@-1503300703 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+getLocationRight(): (2, 9)@-1503300675 is at the edge of the board
+Battleship, -246878383 was not placed becauseone or more locations are outside of the board
+]]></system-out>
+  </testcase>
+</testsuite>
