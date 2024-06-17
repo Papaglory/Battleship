@@ -8,9 +8,17 @@ This project is my from-scratch implementation of the classic board game, Battle
 
 Depicted is the setup phase along with the initial gameplay phase.
 
-## How to Use
+## How to Run
 
-To play the game, simply run the provided JAR file.
+### Source Code
+
+Simply clone this repository.
+
+### Running the Executable
+**Steps**:
+   - Go to the [Releases](https://github.com/Papaglory/Battleship/releases) page of this repository.
+   - Download the latest release ZIP file (e.g., `Battleship-v1.0.0.zip`).
+   - Extract the contents of the ZIP file to a directory of your choice.
 
 ## Dependencies
 
